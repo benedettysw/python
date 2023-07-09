@@ -1,0 +1,18 @@
+lista = []
+
+print("comom te llmas")
+nombre=input()
+lista.append(nombre)
+print("deseas mas")
+decision=input()
+
+
+while decision == "s" or decision == "S":
+    print("como te llamas")
+    a=input()
+    lista.append(a)
+    print("deseas mas")
+    decision=input()
+    
+for i in lista:
+    print(i)
